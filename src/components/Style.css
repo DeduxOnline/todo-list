@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+  
+  body {
+    background: linear-gradient(0deg,rgb(38, 70, 83) 0%,rgb(42, 157, 143) 100%);
+    min-height:650px;
+  }
+
+  .App {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h1 {
+    margin: 5px;
+    color: #fff;
+    font-size: 48px;
+    text-align:  center;
+  }
+
+  .form {
+    margin: 10px 10px 20px 10px;
+    display: flex;
+  }
+ 
+  .input {
+    width: 95%;
+    padding: 14px 32px 14px 16px;
+    border-radius: 8px 0px 0px 8px;
+    border: 2px solid rgb(244, 162, 97);
+    background: rgb(231, 111, 81);
+    color: rgba(255, 255, 255);
+    outline: none;
+    font-size: 24px;
+  }
+
+  .input::placeholder {
+    color: rgba(255, 255, 255);
+    opacity: 0.6;
+  }
+
+  
+  .button {
+    padding: 16px 22px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient(90deg,rgb(244, 162, 97) 0%,rgb(233, 196, 106) 100%);
+    color: #fff;
+    transition: 0.3s;
+    opacity: 0.8;
+  }
+
+  .button:hover {
+    opacity: 1;
+  }
+  
+  .button:active {
+    padding: 15px;
+  }
+
+  .input.edit {
+    border: 2px solid rgb(233, 196, 106);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  
+  .row {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 10px;
+    color: #fff;
+    background: linear-gradient(90deg,rgba(255, 118, 20, 1) 0%,rgba(255, 84, 17, 1) 100%);
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 24px;
+    transition: 0.3s;
+  }
+
+  .work{
+    justify-content:space-between;
+    display: flex;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+  .work:hover {
+    opacity: 1;
+    transition: 0.05s;
+  }
+
+  .work:active{
+    margin-left: 5px;
+    transition: 0.05s;
+  }
+
+  .status{
+    margin-right: 5px;
+  }
+
+  .icons {
+    display: flex;
+    font-size: 24px;
+    cursor: pointer;
+    background: rgb(244, 162, 97);
+    border-radius: 8px;
+    padding: 5px;
+  }
+
+  .edit{
+    opacity: 0.8;
+  }
+
+  .edit:hover {
+    opacity: 1;
+  }
+
+  .edit:active {
+    margin-right: 5px;
+    transition: 0.05s;
+  }
+
+  .delete{
+    opacity: 0.8;
+  }
+
+  .delete:hover {
+    opacity: 1;
+  }
+
+  .delete:active {
+    margin-right: 5px;
+    transition: 0.05s;
+  }
+  
+  .complete {
+    text-decoration: line-through;
+    opacity: 0.4;
+    transition: 0.3s;
+  }
+
+  .advice{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 10px;
+    color: #fff;
+    background: linear-gradient(0deg,rgb(252, 105, 0) 0%,rgb(255, 72, 0) 100%);
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 24px;
+    cursor: pointer;
+  }
